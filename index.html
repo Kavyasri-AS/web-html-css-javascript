@@ -1,0 +1,744 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.png" type="image/jpg">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"href="bootstrap.min.css">
+    <title>Pizza</title>
+</head>
+<body>
+
+    <div id="wrap">
+        <!-- start header -->
+        <header class="header" id="myHeader">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="logo.png" alt="Logo" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-8 col-lg-10">
+                        <!-- nav items starts   -->
+                        <nav class="navbar navbar-expand-lg nabar-own p-8">
+                            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon">
+                                    <span class="menu_line_1"></span>
+                                    <span class="menu_line_2"></span>
+                                    <span class="menu_line_3"></span>
+                                </span>
+                            </button>
+                            <div class="collapse navbar-collapse tr-nabar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-auto align-self-center">
+                                    <li class="nav-item tr-nav-item">
+                                        <a href="#Special" class="nav-link">Special Items</a>
+                                    </li>
+                                    <li class="nav-item tr-nav-item">
+                                        <a href="#menu" class="nav-link">Menu</a>
+                                    </li>
+                                    <li class="nav-item tr-nav-item">
+                                        <a href="#feedback" class="nav-link">Feedback</a>
+                                    </li>
+                                    <li class="nav-item tr-nav-item">
+                                        <a href="#chef" class="nav-link">Chef</a>
+                                    </li>
+                                    <li class="nav-item tr-nav-item">
+                                        <a href="#contact" class="nav-link">Contact</a>
+                                    </li>
+                                </ul>
+                                <div class="header-search">
+                                    <input type="text" class="form-control header-input" placeholder="Search here">
+                                    <span class="search-icon">
+                                        <i class="fas fa-search"></i>
+                                    </span>
+                                    <span class="close-icon"><i class="fas fa-times"></i></span>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <!--------------------------------------- -------------------End header ------------------------------------------------------>
+     <section class="home-slider">
+              <div class="home-slider-image wow fadeInRight col-xl-5 col-lg-6 col-md-6 col-12 p-0" data-wow-duration="2s" data-wow-delay="1s">
+                  <img src="bg.png" alt="BG Image" class="img-fluid" data-wow-delay="1s">
+             </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-11 col-md-6 col-lg-9 col-xl-10">
+                        <div class="slider-content">
+                            <span class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.3s">
+                                Cheese Loaded
+                            </span>
+                            <h1 class="wow fadeInDown" data-wow-duration="1.5s" data-wow-delay="0.4s">Perfect party food</h1>
+                            <p class="mb-0 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">Our Cheese Loaded pizza is the ultimate party food! Pair it with crispy junks for a match made in heaven, satisfying your cravings in every bite. Perfect for gatherings, parties, or cozy nights in!</p>
+                        </div>
+                        <div class="slider-video-section wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.4s">
+                            <div class="slider-obutton">
+                                <button class="btn">Grab Your Bites</button>
+                            </div>
+                            <div class="slider-pbutton">
+                                <div class="play-button" data-toggle="modal" data-target="#exampleModalCenter">
+                                    <img src="paly-icon.png" alt="play button">
+                                </div>
+                                <p class="mb-0 ml-4">Watch Our Story</p>
+                                <!-- modal section starts  -->
+                                <div id="exampleModalCenter" tabindex="-1" role="dialog" aria-hidden="true" class="modal fade">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" data-dismiss="modal" aria-label="Close" class="close">
+                                                <i class="fas fa-window-close"></i>
+                                            </button>
+                                            <div class="modal-body">
+                                                <video controls width="727" height="600">
+                                                    <source src="video.mp4" type="video/mp4">
+                                                </video>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- modal section ends -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!------------------------------------------------------- slider section ends here-------------------------------------------------------------- -->
+
+<!--------------------------------------------------------- Our specialities items starts ----------------------------------------------------------- -->
+<section id="menu" class="our-item-section position-relative">
+    <h2 class="d-none">hidden</h2>
+    <div class="shape-image-two">
+        <img src="dottd-squre.png" alt="">
+    <div class="container">
+        <div class="row specialities-top">
+            <div class="col-12 col-md-12 col-lg-12">
+                <div class="wow fadeInDown" data-wow-duration="2s" data-wow-delay="0.4s">
+                    <h2 class="mb-0">Our Top Items</h2>
+                </div>
+                <p class="wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">Indulge in our signature pizzas, carefully crafted to satisfy your cravings! Our top items include the mouth-watering 'Cheesy Delight', the spicy 'Italian Stallion', and the meaty 'Meat Lover's Masterpiece'. These fan favorites are made with the freshest ingredients and baked to perfection. Try one today and taste the difference for yourself!"</p>
+            </div>
+        </div>
+        <div class="row specialities-section">
+            <div class="col-12 col-md-6 col-lg-5">
+                <div class="specialities-image wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.4s">
+                    <img src="s1.jpg" alt="">
+                </div>
+               </div>
+            <div class="col-12 col-lg-1 d-lg-block d-none p-0"></div>
+            <div class="col-12 col-md-6 col-lg-6 p-lg-0 specialities-column">
+                <div class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.4s">
+                    <br><br><br><br><h3 class="mb-0">Delicious Chesse Loaded Pizza</h3>
+                </div>
+                <p class="wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">Discover the flavors that have captured the hearts of our customers! Our top-selling pizzas are a testament to our commitment to quality and taste. From the classic 'Margherita Magic' to the adventurous 'BBQ Chicken Bonanza', every bite is a delight. Whether you're a pizza aficionado or just looking for a quick bite, our top items are sure to hit the spot!</p>
+              </div>
+            </div>
+        <div class="row specialities-section">
+            <div class="col-12 col-md-6 col-lg-6 p-lg-0 specialities-column specialities-middle">
+                <div class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.4s">
+                    <br><br><br><h3 class="mb-0">Make Your dine time Worth</h3>
+                </div>
+                <p class="wow fadeIn mb-0" data-wow-duration="2s" data-wow-delay="0.4s">
+                   Get ready to elevate your pizza game with our top-of-the-line options! Our expert chefs have crafted a selection of signature pizzas that blend bold flavors and fresh ingredients. From the decadent 'Quattro Formaggi' to the spicy 'Jalapeno Popper', each pie is a masterpiece. Treat yourself to a truly unforgettable pizza experience with our top items – your taste buds will thank you!</p>
+            </div>
+            <div class="col-12 col-lg-1 d-lg-block d-none p-0"></div>
+            <div class="col-12 col-md-6 col-lg-5">
+                <div class="specialities-image wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.4s">
+                    <img src="s2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+            <div class="row specialities-section">
+            <div class="col-12 col-md-6 col-lg-5">
+                <div class="specialities-image wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.4s">
+                    <img src="s3.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-12 col-lg-1 d-lg-block d-none p-0"></div>
+            <div class="col-12 col-md-6 col-lg-6 p-lg-0 specialities-column">
+                <div class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.4s">
+                    <br><br><br><h3 class="mb-0">We serve the best one here.</h3>
+                </div>
+                <p class="wow fadeIn mb-0" data-wow-duration="2s" data-wow-delay="0.4s">
+                    "Looking for a pizza that's sure to impress? Look no further! Our top items are crowd-pleasers that are perfect for any occasion. Whether you're hosting a party, game night, or just a cozy night in, our signature pizzas are the perfect choice. With options like the 'Meat Lover's Masterpiece' and the 'Veggie Delight', there's something for everyone. So why settle for ordinary pizza when you can have an extraordinary one?"
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ----------------------------------------------------------Our specialities items ends ------------------------------------------------------ -->
+
+<section id="menu" class="our-item-section position-relative">
+    <h2 class="d-none">hidden</h2>
+    <div class="shape-image-two">
+        <img src="dottd-squre.png" alt="">
+    </div>
+    <div class="container">
+        <div class="row specialities-top">
+            <div class="col-12 col-md-12 col-lg-12">
+                <div class="wow fadeInDown" data-wow-duration="2s" data-wow-delay="0.4s">
+                    <h2 class="mb-0">Our Top Items</h2>
+                </div>
+                <p class="wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">Our top items include the Veg Loaded, Chicken Dominator, Pepperoni Pizza, Quattro Stagioni, Napoletana Pizza, Mexican Green Wave, and Farm House Pizza. These mouth-watering options cater to diverse tastes, from meaty masterpieces to veggie extravaganzas and authentic Italian classics.</p>
+            </div>
+        </div>
+        <div class="row mx-md-0">
+            <div class="col-12 col-md-4 col-lg-3 p-lg-0">
+                <ul data-wow-duration="2s" data-wow-delay="0.4s" class="our-item-tab nav-tabs nav flex-column pl-0 wow fadeIn">
+                    <li class="nav-item">
+                        <a href="#veg" data-toggle="tab" class="nav-link active">Veg Loaded</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#nonveg" data-toggle="tab" class="nav-link">Non Veg</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#mushroom" data-toggle="tab" class="nav-link">Mushroom</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#cheese" data-toggle="tab" class="nav-link">Cheese</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#paneer" data-toggle="tab" class="nav-link">Paneer</a>
+                    </li>
+                </ul>
+            </div>
+                        <div class="col-12 col-lg-1 d-lg-block d-none p-0"></div>
+            <div class="col-12 col-md-8 col-lg-8 p-lg-0">
+                <div class="tab-content" id="tabs">
+                    <div class="tab-pane active" id="veg">
+                        <div class="our-item-slider veg-slider">
+                            <div class="our-item">
+                                <div class="our-item-inner">
+                                    <div data-wow-duration="2s" data-wow-delay="0.4s" class="wow fadeInRight">
+                                        <h3 class="mb-0">Margarita pizza with Extra Chesse and Coke </h3>
+                                    </div>
+                                    <div class="item_order">
+                                        <p class="wow fadeIn mb-0" data-wow-duration="2s" data-wow-delay="0.4s">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, voluptate eaque. Saepe dolor incidunt vero iusto eum. Tempore, accusantium unde?
+                                        </p>
+                                        <div class="our-item-button wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                            <button class="btn">Order Now</button>
+                                        </div>
+                                    </div>
+                                    <div class="our-item-image wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                        <img src="vegb1.jpg" alt="">
+                                        <div class="item-price">Rs. 399</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="our-item">
+                                <div class="our-item-inner">
+                                    <div data-wow-duration="2s" data-wow-delay="0.4s" class="wow fadeInRight">
+                                        <h3 class="mb-0">Veg Loaded with organic veggies and Pepsi</h3>
+                                    </div>
+                                    <div class="item_order">
+                                        <p class="wow fadeIn mb-0" data-wow-duration="2s" data-wow-delay="0.4s">
+                                             crunch into a flavorful and healthy treat with our 'Veg Loaded' meal! Loaded with a vibrant mix of organic veggies, this meal is a testament to nature's goodness. Pair it with a chilled glass of Pepsi for the perfect harmony of taste and refreshment. Treat yourself to a guilt-free indulgence that not only delights your palate but also nourishes your body
+                                        </p>
+                                        <div class="our-item-button wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                            <button class="btn">Order Now</button>
+                                        </div>
+                                    </div>
+                                    <div class="our-item-image wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                        <img src="vegb2.jpg" alt="">
+                                        <div class="item-price">Rs. 399</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="tab-pane" id="nonveg">
+                        <div class="our-item-slider non-veg-slider">
+                            <div class="our-item">
+                                <div class="our-item-inner">
+                                    <div data-wow-duration="2s" data-wow-delay="0.4s" class="wow fadeInRight">
+                                        <h3 class="mb-0">Chicken Dominator with Grilled Chicken Rashers and Double Barbaque Chicken</h3>
+                                    </div>
+                                    <div class="item_order">
+                                        <p class="wow fadeIn mb-0" data-wow-duration="2s" data-wow-delay="0.4s">
+                                           Get ready to devour the ultimate chicken lover's dream with our 'Chicken Dominator' pizza! Loaded with succulent Grilled Chicken Rashers and smothered in a rich Double Barbecue Chicken topping, this mouth-watering masterpiece is the perfect treat for those who crave a meaty, flavorful feast. Every bite is a testament to the unbridled joy of chicken done right – so go ahead, dominate your cravings with this unstoppable pizza
+                                        </p>
+                                        <div class="our-item-button wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                            <button class="btn">Order Now</button>
+                                        </div>
+                                    </div>
+                                    <div class="our-item-image wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                        <img src="nde1.jpg" alt="">
+                                        <div class="item-price">Rs. 399</div>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="our-item">
+                                <div class="our-item-inner">
+                                    <div data-wow-duration="2s" data-wow-delay="0.4s" class="wow fadeInRight">
+                                        <h3 class="mb-0">Pepperoni Pizza</h3>
+                                    </div>
+                                    <div class="item_order">
+                                        <p class="wow fadeIn mb-0" data-wow-duration="2s" data-wow-delay="0.4s">
+                                           Experience the classic charm of our signature Pepperoni Pizza, crafted to perfection with a medley of flavors and textures. Soft, fluffy crust serves as the foundation for a rich tapestry of savory pepperoni slices, melted mozzarella cheese, and a tangy tomato sauce. Each bite transports you to a world of comfort food bliss, where the simplicity of a perfectly crafted pepperoni pizza reigns supreme. Indulge in a slice (or two) and discover why this timeless favorite remains a staple of pizza perfection!
+                                        </p>
+                                        <div class="our-item-button wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                            <button class="btn">Order Now</button>
+                                        </div>
+                                    </div>
+                                    <div class="our-item-image wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                        <img src="nde2.jpg" alt="">
+                                        <div class="item-price">Rs. 399</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="mushroom">
+                        <div class="our-item-slider mushroom-slider">
+                            <div class="our-item">
+                                <div class="our-item-inner">
+                                    <div data-wow-duration="2s" data-wow-delay="0.4s" class="wow fadeInRight">
+                                        <h3 class="mb-0">Quattro Stagioni includes "Mushroom, Ham and many other Items"</h3>
+                                    </div>
+                                    <div class="item_order">
+                                        <p class="wow fadeIn mb-0" data-wow-duration="2s" data-wow-delay="0.4s">
+                                            Embark on a culinary journey through the seasons with our Quattro Stagioni pizza, a vibrant celebration of flavors and textures. This Italian masterpiece is divided into four quadrants, each representing a season and featuring a distinct combination of ingredients.
+
+Savor the earthy goodness of Mushroom, the salty sweetness of Ham, and many other delicious items, all perfectly balanced and harmonized on a delicate crust. Every bite is a surprise, a delightful exploration of the seasons' bounty. Experience the authentic taste of Italy with our Quattro Stagioni pizza, a true classic!
+                                        </p>
+                                        <div class="our-item-button wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                            <button class="btn">Order Now</button>
+                                        </div>
+                                    </div>
+                                    <div class="our-item-image wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                        <img src="d1.jpg" alt="">
+                                        <div class="item-price">Rs. 399</div>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="our-item"> 
+                                    <div class="our-item-inner">
+                                    <div data-wow-duration="2s" data-wow-delay="0.4s" class="wow fadeInRight">
+                                        <h3 class="mb-0">Napoletana or Napoli Pizza</h3>
+                                    </div>
+                                    <div class="item_order">
+                                        <p class="wow fadeIn mb-0" data-wow-duration="2s" data-wow-delay="0.4s">
+                                            Delight in the quintessential taste of Italy with our authentic Napoletana Pizza, a timeless classic born in the heart of Naples. This masterpiece is crafted with the finest ingredients, adhering to traditional Neapolitan methods that have remained unchanged for centuries.
+
+Soft, chewy crust, fresh San Marzano tomatoes, creamy mozzarella di bufala, and fragrant basil leaves come together in perfect harmony, creating a flavor profile that's both simple and sublime. Every bite transports you to the sun-kissed streets of Naples, where the art of pizza-making is a revered tradition. Experience the authentic taste of Italy with our Napoletana Pizza
+                                        </p>
+                                        <div class="our-item-button wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                            <button class="btn">Order Now</button>
+                                        </div>
+                                    </div>
+                                    <div class="our-item-image wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                        <img src="d2.jpg" alt="">
+                                        <div class="item-price">Rs. 499</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="cheese">
+                        <div class="our-item-slider cheese-slider">
+                            <div class="our-item">
+                                <div class="our-item-inner">
+                                    <div data-wow-duration="2s" data-wow-delay="0.4s" class="wow fadeInRight">
+                                        <h3 class="mb-0">Mozzarella</h3>
+                                    </div>
+                                    <div class="item_order">
+                                        <p class="wow fadeIn mb-0" data-wow-duration="2s" data-wow-delay="0.4s">
+                                           Mozzarella: the queen of Italian cheeses. This creamy, white delight is crafted from the finest cow's milk or water buffalo milk, carefully transformed into a smooth, stretchy texture that's both mesmerizing and mouth-watering.
+
+Mozzarella's mild, milky flavor and velvety consistency make it the perfect melting cheese, elevating pizzas, caprese salads, and pasta dishes to new heights. Whether you're a pizza aficionado, a cheese connoisseur, or simply a lover of all things Italian, Mozzarella is sure to delight your senses and leave you craving more.
+                                        </p>
+                                        <div class="our-item-button wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                            <button class="btn">Order Now</button>
+                                        </div>
+                                    </div>
+                                    <div class="our-item-image wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                        <img src="l1.jpg" alt="">
+                                        <div class="item-price">Rs. 399</div>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="our-item">
+                                <div class="our-item-inner">
+                                    <div data-wow-duration="2s" data-wow-delay="0.4s" class="wow fadeInRight">
+                                        <h3 class="mb-0">Goat Cheese</h3>
+                                    </div>
+                                    <div class="item_order">
+                                        <p class="wow fadeIn mb-0" data-wow-duration="2s" data-wow-delay="0.4s">
+                                            "Goat Cheese: a tangy, creamy delight that adds a touch of sophistication to any dish. With its distinctive, slightly sweet flavor and velvety texture, goat cheese is a favorite among cheese lovers and chefs alike.
+
+Whether you enjoy it spread on crackers, crumbled over salads, or melted into sauces, goat cheese brings a unique charm to any culinary creation. Its delicate acidity and subtle nutty notes make it a perfect pairing for fresh herbs, fruits, and nuts. Indulge in the rich, creamy world of goat cheese and discover a new favorite flavor!
+                                        </p>
+                                        <div class="our-item-button wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                            <button class="btn">Order Now</button>
+                                        </div>
+                                    </div>
+                                    <div class="our-item-image wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                        <img src="l2.jpg" alt="">
+                                        <div class="item-price">Rs. 499</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="paneer">
+                        <div class="our-item-slider paneer-slider">
+                            <div class="our-item">
+                                <div class="our-item-inner">
+                                    <div data-wow-duration="2s" data-wow-delay="0.4s" class="wow fadeInRight">
+                                        <h3 class="mb-0">Mexican green Wave"</h3>
+                                    </div>
+                                    <div class="item_order">
+                                        <p class="wow fadeIn mb-0" data-wow-duration="2s" data-wow-delay="0.4s">
+                                            Ride the Mexican Green Wave, a vibrant and flavorful culinary sensation that will transport you to the sun-kissed beaches and lively markets of Mexico.
+
+This mouth-watering masterpiece combines the freshness of green chilies, the tanginess of lime juice, and the richness of creamy avocado, all perfectly balanced on a crispy tortilla wave. Every bite is a fiesta of flavors, with the spicy kick of jalapeños, the savory depth of cumin, and the bright, zesty zing of cilantro.
+
+Whether you're a fan of spicy foods, a lover of Mexican cuisine, or simply looking for a taste adventure, the Mexican Green Wave is a must-try experience that will leave you craving more!
+                                        </p>
+                                        <div class="our-item-button wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                            <button class="btn">Order Now</button>
+                                        </div>
+                                    </div>
+                                    <div class="our-item-image wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                        <img src="s1.jpg" alt="">
+                                        <div class="item-price">Rs. 399</div>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="our-item">
+                                <div class="our-item-inner">
+                                    <div data-wow-duration="2s" data-wow-delay="0.4s" class="wow fadeInRight">
+                                        <h3 class="mb-0">Farm House. A Pizza that goes ballistic on veggies</h3>
+                                    </div>
+                                    <div class="item_order">
+                                        <p class="wow fadeIn mb-0" data-wow-duration="2s" data-wow-delay="0.4s">
+                                            Get ready for a veggie explosion with our Farm House Pizza, a flavorful masterpiece that's bursting with the freshness of the farm!
+
+Loaded with a colorful medley of juicy vegetables, including crispy bell peppers, onions, mushrooms, and tomatoes, this pizza is a plant-based paradise. Every bite is a celebration of nature's bounty, with the sweetness of caramelized vegetables, the earthiness of mushrooms, and the tanginess of fresh herbs.
+
+Whether you're a vegetarian, vegan, or simply a lover of all things green, the Farm House Pizza is a must-try experience that will leave you feeling nourished, satisfied, and craving more
+                                        </p>
+                                        <div class="our-item-button wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                            <button class="btn">Order Now</button>
+                                        </div>
+                                    </div>
+                                    <div class="our-item-image wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                        <img src="s2.jpg" alt="">
+                                        <div class="item-price">Rs. 499</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!------------------------------------ testimonial section  --------------------------->
+<section class="testimonials position-relative" id="feedback">
+    <h2 class="d-none">hidden</h2>
+    <div class="shape-image-three">
+        <img src="dottd-squre.png" alt="">
+    </div>
+    <div class="container">
+        <div class="row specialities-top">
+            <div class="col-12 col-md-12 col-lg-12">
+                <div class="wow fadeInDown" data-wow-delay="0.4s" data-wow-duration="2s">
+                    <h2 class="mb-0">Our Happy User</h2>
+                </div>
+                <p class="wow fadeIn marg" data-wow-duration="2s" data-wow-delay="0.4s">
+                    Meet our happy user, who's savored the flavor and fun of our culinary delights! With a smile that says it all, our satisfied customer has enjoyed every bite of our signature dishes, from the cheesy goodness of our pizzas to the bold flavors of our international specialties. Their delight is our reward, and we can't wait to serve up another helping of happiness!
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-6">
+                <div id="testimonials-slider-pager">
+                    <div class="testimonials-slider-pager-one">
+                        <a href="#" class="pager-item" data-slide-index="0"><img src="1.png" class="img-fluid" alt=""></a>
+                        <a href="#" class="pager-item" data-slide-index="1"><img src="2.png" class="img-fluid" alt=""></a>
+                        <a href="#" class="pager-item" data-slide-index="2"><img src="3.png" class="img-fluid" alt=""></a>
+                    </div>
+                    <div class="testimonials-slider-pager-two">
+                        <a href="#" class="pager-item" data-slide-index="3"><img src="4.png" class="img-fluid" alt=""></a>
+                        <a href="#" class="pager-item" data-slide-index="4"><img src="5.png" class="img-fluid" alt=""></a>
+                        <a href="#" class="pager-item" data-slide-index="5"><img src="6.png" class="img-fluid" alt=""></a>
+                    </div>
+                    <div class="testimonials-slider-pager-three">
+                        <a href="#" class="pager-item" data-slide-index="0"><img src="1.png" class="img-fluid" alt=""></a>
+                        <a href="#" class="pager-item" data-slide-index="1"><img src="2.png" class="img-fluid" alt=""></a>
+                        <a href="#" class="pager-item" data-slide-index="2"><img src="3.png" class="img-fluid" alt=""></a>
+                        <a href="#" class="pager-item" data-slide-index="3"><img src="4.png" class="img-fluid" alt=""></a>
+                        <a href="#" class="pager-item" data-slide-index="4"><img src="5.png" class="img-fluid" alt=""></a>
+                        <a href="#" class="pager-item" data-slide-index="5"><img src="6.png" class="img-fluid" alt=""></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-6">
+                <ul class="slider testimonials-slider wow fadeInwow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                    <li class="slide-item">
+                        <div class="quote-image">
+                            <img src="quote-left.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="single-testi-one">
+                            <p>I'm thoroughly impressed with my recent pizza order! The overall experience was excellent, with the pizza arriving hot and fresh. The food quality was top-notch, with the pizza cooked to perfection. The delivery was timely and the driver was friendly, while the customer service team was responsive and helpful. I couldn't find any fault and would definitely order again - keep up the great work!</p>
+                            <p>The pizza was love at first bite! The cheese was melted to perfection, the toppings were fresh, and the sauce was tangy. Can't wait to order again!</p>
+                            <h3 class="mb-0">Nilay Hirpara</h3>
+                            <span>MD</span>
+                        </div>
+                    </li>
+                    <li class="slide-item">
+                        <div class="quote-image">
+                            <img src="quote-left.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="single-testi-one">
+                            <p>'m absolutely delighted with my pizza order! The flavors were amazing, the crust was perfect, and the delivery was super fast. I'll definitely be ordering again soon!</p>
+                            <p>'ve tried many pizza places, but this one is hands down the best! The quality of the ingredients, the cooking, and the service are all top-notch. I'm hooked!"</p>
+                            <h3 class="mb-0">Somyadeep</h3>
+                            <span>CLO</span>
+                        </div>
+                    </li>
+                    <li class="slide-item">
+                        <div class="quote-image">
+                            <img src="quote-left.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="single-testi-one">
+                            <p>I was blown away by the quality of the pizza! The crust was crispy, the cheese was melted to perfection, and the toppings were fresh and flavorful. The delivery was also super fast and the driver was friendly. I'll definitely be ordering again soon</p>
+                            <p>The pizza was absolutely delicious! I loved the combination of toppings and the sauce was tangy and flavorful. The customer service was also top-notch, they were responsive and helpful. I've already recommended this place to my friends and family!</p>
+                            <h3 class="mb-0">Priyotosh Dey</h3>
+                            <span>COO</span>
+                        </div>
+                    </li>
+                    <li class="slide-item">
+                        <div class="quote-image">
+                            <img src="quote-left.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="single-testi-one">
+                            <p>I've been searching for a good pizza place for ages, and I'm so glad I found this one! The pizza was cooked to perfection, the toppings were generous, and the price was very reasonable. The delivery was also fast and convenient. I'll definitely be ordering again and again!</p>
+                            <p>This pizza is hands down the best I've ever had! The cheese is melted to perfection, the sauce is tangy, and the toppings are fresh. The delivery was also super fast. I'm already planning my next order!</p>
+                            <h3 class="mb-0">Pranav Badgal</h3>
+                            <span>CTO</span>
+                        </div>
+                    </li>
+                    <li class="slide-item">
+                        <div class="quote-image">
+                            <img src="quote-left.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="single-testi-one">
+                            <p>'m obsessed with this pizza place! The flavors are incredible, the crust is perfect, and the service is always friendly. I've tried a few different toppings and they're all delicious. Highly recommend!</p>
+                            <p>This pizza is hands down the best I've ever had! The cheese is melted to perfection, the sauce is tangy, and the toppings are fresh. The delivery was also super fast. I'm already planning my next order</p>
+                            <h3 class="mb-0">Ravi Kumawat</h3>
+                            <span>CFO</span>
+                        </div>
+                    </li>
+                    <li class="slide-item">
+                        <div class="quote-image">
+                            <img src="quote-left.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="single-testi-one">
+                            <p>I was a bit skeptical about ordering pizza online, but this place exceeded my expectations! The pizza was hot and fresh, the toppings were generous, and the price was very reasonable. The customer service was also top-notch. I'll definitely be ordering again!</p>
+                            <p>The pizza was absolutely delicious! I loved the combination of toppings and the sauce was tangy and flavorful. The customer service was also top-notch, they were responsive and helpful. I've already recommended this place to my friends and family!"
+
+</p>
+                            <h3 class="mb-0">Navnit Kumar</h3>
+                            <span>CEO</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<!----------------------------------------------- Chef section  ------------------------------------->
+<section class="chef-section position-relative" id="chef">
+    <h2 class="d-none">hidden</h2>
+    <div class="shape-image-four">
+        <img src="dottd-squre.png" alt="">
+    </div>
+    <div class="container position-relative">
+        <div class="row specialities-top">
+            <div class="col-12 col-md-12 col-lg-12">
+                <div class="wow fadeInDown" data-wow-delay="0.4s" data-wow-duration="2s">
+                    <h2 class="mb-0">Meet Our Great Chef</h2>
+                </div>
+                <p class="wow fadeIn marg" data-wow-duration="2s" data-wow-delay="0.4s">
+                    Meet our culinary mastermind, Chef ! With years of experience in the kitchen, Chef [Name] brings a passion for innovative flavors and techniques to our pizza creations. From classic margherita to gourmet toppings, every pie is crafted with love and care."
+                </p>
+            </div>
+        </div>
+        <div class="chef-slider">
+            <div class="chef-slider-inner">
+                <div class="row mx-lg-0">
+                    <div class="col-12 col-md-4 col-lg-4 p-0">
+                        <div data-wow-duration="2s" data-wow-delay="0.4s" class="chef-image wow fadeInLeft">
+                            <img src="c1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-1 col-lg-1 p-lg-0 d-lg-block d-none"></div>
+                    <div class="col-12 col-md-8 col-lg-7 p-lg-0">
+                        <div class="chef-content wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                            <h3 class="mb-0">New Pizza Flavour made by chef</h3>
+                            <p class="wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
+                                Our chef is a true artist, combining traditional Italian flavors with modern twists and surprises. With a keen eye for detail and a commitment to using only the freshest ingredients, Chef  Pieonee ensures that every bite is a delight for the senses.
+                            </p>
+                            <div class="chef-name">Pranav</div>
+                            <span>Chef at Pizza Shop</span>
+                            <div class="social-share">
+                                <a href="#" class="fb-ic"><i class="fab fa-facebook-f mr-4"></i></a>
+                                <a href="#" class="tw-ic"><i class="fab fa-twitter mr-4"></i></a>
+                                <a href="#" class="ins-ic"><i class="fab fa-instagram mr-4"></i></a>
+                                <a href="#" class="pin-ic"><i class="fab fa-pinterest mr-4"></i></a>
+                                <a href="#" class="sn-ic"><i class="fab fa-snapchat mr-4"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="chef-slider-inner">
+                <div class="row mx-lg-0">
+                    <div class="col-12 col-md-4 col-lg-4 p-0">
+                        <div data-wow-duration="2s" data-wow-delay="0.4s" class="chef-image wow fadeInLeft">
+                            <img src="c2.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-1 col-lg-1 p-lg-0 d-lg-block d-none"></div>
+                    <div class="col-12 col-md-8 col-lg-7 p-lg-0">
+                        <div class="chef-content wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                            <h3 class="mb-0">Chef made somthing to impress customer</h3>
+                            <p class="wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
+                                Chef Roberto's dedication to his craft is evident in every dish that leaves our kitchen. From the perfectly balanced sauce to the gooey melted cheese, every element is carefully considered to create a truly unforgettable dining experience. Come taste the difference for yourself!
+                            </p>
+                            <div class="chef-name">Nilay</div>
+                            <span>Chef at Pizza Shop</span>
+                            <div class="social-share">
+                                <a href="#" class="fb-ic"><i class="fab fa-facebook-f mr-4"></i></a>
+                                <a href="#" class="tw-ic"><i class="fab fa-twitter mr-4"></i></a>
+                                <a href="#" class="ins-ic"><i class="fab fa-instagram mr-4"></i></a>
+                                <a href="#" class="pin-ic"><i class="fab fa-pinterest mr-4"></i></a>
+                                <a href="#" class="sn-ic"><i class="fab fa-snapchat mr-4"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- email section  -->
+<section class="email-subscription position-relative" id="contact">
+    <div class="container">
+        <div class="row specialities-top">
+            <div class="col-12 col-md-12 col-lg-12">
+                <div class="wow fadeInDown" data-wow-delay="0.4s" data-wow-duration="2s">
+                    <h2 class="mb-0">Want to get the latest update?</h2>
+                </div>
+                <p class="wow fadeIn marg" data-wow-duration="2s" data-wow-delay="0.4s">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo voluptatibus praesentium mollitia non ut inventore in exercitationem id doloremque voluptate.
+                </p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-6">
+                <form action="#" class="email-form">
+                    <div class="form-group position-relative mb-0">
+                        <input type="email" class="form-control" placeholder="Your Emai Id">
+                        <button type="submit" class="btn btn-primary email-form-button">SEND</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+    </div>
+
+    <!-- footer section  -->
+    <footer class="position-relative wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+        <div class="footer-bottom">
+            <div class="container position-relative">
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-12">
+                        <div class="footer-menu text-center">
+                            <ul>
+                                <li class="nav-item">
+                                    <a href="#Special" class="nav-link">Special Items</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#menu" class="nav-link">Menu</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#feedback" class="nav-link">Feedback</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#chef" class="nav-link">Chef</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#contact" class="nav-link">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-12 text-center">
+                        <div class="footer-logo">
+                            <img src="logo.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 footer-icon text-center">
+                        <a href="#" class="fb-ic">
+                            <i class="fab fa-facebook-f mr-2 mr-md-5 wow fadeInDown" data-wow-duration="1.5s" data-wow-delay="0.4s"></i>
+                        </a>
+                        <a href="#" class="tw-ic">
+                            <i class="fab fa-twitter mr-2 mr-md-5 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.4s"></i>
+                        </a>
+                        <a href="#" class="ins-ic">
+                            <i class="fab fa-instagram mr-2 mr-md-5 wow fadeInDown" data-wow-duration="1.5s" data-wow-delay="0.4s"></i>
+                        </a>
+                        <a href="#" class="pin-ic">
+                            <i class="fab fa-pinterest mr-2 mr-md-5 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.4s"></i>
+                        </a>
+                        <a href="#" class="sn-ic">
+                            <i class="fab fa-snapchat mr-2 mr-md-5 wow fadeInDown" data-wow-duration="1.5s" data-wow-delay="0.4s"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+   </div>
+<!-- Add scripts before closing body -->
+<script src="jquery.js"></script>
+<script src="bootstrap.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
+
+   
+       
